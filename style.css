@@ -1,0 +1,68 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    justify-content: center;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    border: 1px solid black;
+    width: 900px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 13px;
+}
+button{
+    width: 40px;
+    height: 39px;
+    position: relative;
+    top: 12.5px;
+    background-color: red;
+    
+}
+.icon>img{
+ width: 20px;
+ height: 20px;
+ position: relative;
+ top: 20px;
+ display: none;
+}
+@media only screen and (max-width: 1066px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       
+    }
+    .text{
+        background-color: red;
+        
+    }
+    .left{
+        margin-top: -30px;
+    }
+
+    
+ 
+}
+@media only screen and (max-width: 437px) {
+   .icon>img{
+    display: inline;
+    position: relative;
+    left:-140px;
+    top:40px
+   }
+}
+
+.container1{
+   border: 1px solid black;
+   width: 200px;
+   display: none;
+  
+}
